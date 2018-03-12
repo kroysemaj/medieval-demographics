@@ -1,11 +1,11 @@
 ## Medieval Demographics
 
-A simple node implementation of the rules laid out by S. John Ross in his article ![Medieval Demographics Made Easy: Numbers for Fantasy Worlds](http://www222.pair.com/sjohn/blueroom/demog.htm).
+A simple node implementation of the rules laid out by S. John Ross in his article [Medieval Demographics Made Easy: Numbers for Fantasy Worlds](http://www222.pair.com/sjohn/blueroom/demog.htm).
 
 ### Instructions
 Use is intentionally simple and unrobust. 
 
-![NodeJS](http://nodejs.org) is required.
+[NodeJS](http://nodejs.org) is required.
 
 1. Clone the repo
 2. Execute `npm start`

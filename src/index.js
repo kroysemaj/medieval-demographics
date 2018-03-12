@@ -12,6 +12,8 @@ function calculate (sqMiles, popDensity) {
   const percentOfTotalWorkedLand = Math.round((workedLand / sqMiles) * 100)
   const percentOfTotalWilderness = 100 - percentOfTotalWorkedLand
   const cities = determineCities(totalPop)
+  const urbanPop = cities.reduce((prev, next, i, arr) => prev + next, 0)
+  const urbanPopPercentage = Math.round((urbanPop / totalPop) * 100)
 
   const stats = {
     totalPopulation: totalPop,
@@ -22,8 +24,9 @@ function calculate (sqMiles, popDensity) {
       const cityObj = {}
       cityObj[++index] = cityPop
       return cityObj
-    })
-    // numberOfTowns: roll2d4() * cities.length
+    }),
+    urbanPopulation: urbanPop,
+    urbanPopPercentage: urbanPopPercentage + '%'
   }
   fs.writeFile('output.json', JSON.stringify(stats), function (err) {
     if (err) console.log(err)

@@ -5,9 +5,9 @@ A simple node implementation of the rules laid out by S. John Ross in his articl
 ### Instructions
 Use is intentionally simple and unrobust. 
 
-[NodeJS](http://nodejs.org) is required.
+[NodeJS](http://nodejs.org) is required, and is run from the terminal. 
 
-1. Clone the repo
+1. Clone the repo and `cd` into the project directory
 2. Execute `npm start`
 3. The stats output will be generated in `output.json`.
 

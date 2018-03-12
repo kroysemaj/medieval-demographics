@@ -1,0 +1,17 @@
+{
+  "totalPopulation": 744000,
+  "workedLand": 4100,
+  "percentOfTotalWorkedLand": "44%",
+  "percentOfTotalWilderness": "56%",
+  "citiesByPopulation": [
+    {
+      "1": 12076
+    },
+    {
+      "2": 10868
+    },
+    {
+      "3": 3804
+    }
+  ]
+}

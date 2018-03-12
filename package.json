@@ -1,0 +1,28 @@
+{
+  "name": "medival-demographics",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "lint": "standard",
+    "dev": "chokidar '**/*.js' -c 'standard --fix; standard'",
+    "fix": "standard --fix",
+    "validate": "npm ls"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "pre-commit": [
+    "lint",
+    "validate",
+    "test"
+  ],
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "chokidar-cli": "^1.2.0",
+    "precommit-hook": "^3.0.0",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {}
+}
